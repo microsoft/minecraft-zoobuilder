@@ -1,6 +1,6 @@
 # Defining blocks for Minecraft
 
-This document provides a quick guide on how to make blocks in an extension for pxt-minecraft. For full documentation on defining blocks, see [defining blocks](https://makecode.com/defining-blocks) in the MakeCode docs.
+This document provides a quick guide on how to make blocks in an extension for pxt-minecraft. For full documentation on defining blocks, see [defining blocks](https://makecode.com/defining-blocks) in the MakeCode docs. You can use MakeCode playground (https://makecode.com/playground) to quickly try out the samples and your block definition code. Choose Minecraft from editior list to see the blocks come alive in the editor.
 
 
 ## Creating a category
