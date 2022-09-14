@@ -26,8 +26,7 @@ The easiest way to develop an extension is to first write your code from within 
 3. Create a new project and turn it into a GitHub repo by pressing the GitHub button in the bottom bar
 4. Switch to the JavaScript editor and copy over your code from Minecraft Education Edition and define your blocks
 
-You can use MakeCode playground (https://makecode.com/playground) to build shapes for your blocks. This tool provides easy to use samples to build the blocks. Choose Minecraft from the editor drop down to see your block generated. Link for the block definition guide: https://makecode.com/defining-blocks
-
+For helpful tips on defining blocks, see [creating blocks](./creating-blocks.md).
 
 ## Helpful tips
 
