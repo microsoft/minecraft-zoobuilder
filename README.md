@@ -21,10 +21,12 @@ Once installed, you can access the MakeCode editor by following these steps:
 
 The easiest way to develop an extension is to first write your code from within the MakeCode editor inside of Minecraft Education Edition. The extension development process looks something like this:
 
-1. Write your code inside MakeCode Education Edition
+1. Write your code inside MakeCode Education Edition and test it.
 2. Once your code is in a good state, navigate to https://minecraft.makecode.com/?github=1 in a browser
 3. Create a new project and turn it into a GitHub repo by pressing the GitHub button in the bottom bar
 4. Switch to the JavaScript editor and copy over your code from Minecraft Education Edition and define your blocks
+
+You can use MakeCode playground (https://makecode.com/playground) to build shapes for your blocks. This tool provides easy to use samples to build the blocks. Choose Minecraft from the editor drop down to see your block generated. Link for the block definition guide: https://makecode.com/defining-blocks
 
 
 ## Helpful tips
