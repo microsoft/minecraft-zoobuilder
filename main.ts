@@ -5,7 +5,7 @@
 
 //% color="#AA278D" 
 namespace zoo {
-    //% block="build acqurium of size $size"
+    //% block="build aquarium of size $size"
     //% size.defl=6
     //% size.min=6 size.max=100
     export function aquarium(size: number) {
