@@ -1,14 +1,58 @@
-# Project
+# Sample extension for pxt-minecraft
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repo provides a sample extension for the Microsoft MakeCode Minecraft Education Edition editor.
 
-As the maintainer of this project, please make a few updates:
+For helpful tips on defining blocks, see [creating blocks](./creating-blocks.md).
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Getting started
+
+Microsoft MakeCode can only be used with Minecraft Education Edition. You can download Minecraft Education Edition here:
+
+https://education.minecraft.net/en-us/get-started/download
+
+Once installed, you can access the MakeCode editor by following these steps:
+
+1. Log in using your Employee or Educational institution credentials
+2. Create a new world. Leave all of the default options for the world as-is (or see the "world options" section below for some helpful tips)
+3. Once the world has loaded, press "c" on your keyboard and select "MakeCode" from the list of options to open the editor
+
+
+## Extension dev loop
+
+The easiest way to develop an extension is to first write your code from within the MakeCode editor inside of Minecraft Education Edition. The extension development process looks something like this:
+
+1. Write your code inside MakeCode Education Edition
+2. Once your code is in a good state, navigate to https://minecraft.makecode.com/?github=1 in a browser
+3. Create a new project and turn it into a GitHub repo by pressing the GitHub button in the bottom bar
+4. Switch to the JavaScript editor and copy over your code from Minecraft Education Edition and define your blocks
+
+
+## Helpful tips
+
+### World Options
+
+There are a few useful options you can check when creating a world:
+
+1. Set the default game mode to "Creative". This will allow you to fly and prevent you from dying. You can change the game mode at any time by opening the chat and typing `/gamemode s` for survival or `/gamemode c` for creative
+2. Make sure the difficulty is higher than peaceful. Peaceful will prevent any monster mobs from spawning.
+3. If you are going to be collaborating with someone else inside this world, change the "Permission level for players who join your world" setting to "Operator" so that they can also run code
+4. Under "World Options", toggle "Show Coordinates" to on
+
+### Performance options
+
+If you are running another performance intensive app (e.g. Microsoft Teams) at the same time as Minecraft, it can be useful to change your graphics settings to improve perf. To access the video settings:
+
+1. While inside a world, press esc to open the pause menu
+2. Click "Settings"
+3. Click "Video" in the left-hand bar
+
+The following settings can drastically improve performance:
+
+1. Turn off "Fancy Leaves", "Beautiful Skies", "Smooth Lighting", and "Fancy Graphics"
+2. Set the "Render Distance" to the minimum value
+3. Set "Anti-Aliasing" to 1
+
+Additionally, disconnecting any external monitors will also improve performance by quite a bit.
 
 ## Contributing
 
